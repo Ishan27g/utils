@@ -1,4 +1,5 @@
 #wget latest golang for linux - https://golang.org/dl/
+# run with .tar.gz file as 1st argument
 
 tar -xvf $1
 sudo chown -R root:root ./go
@@ -10,4 +11,3 @@ echo "export GOPATH=$Home/go"
 echo ""
 echo "export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin"
 echo ""
-
