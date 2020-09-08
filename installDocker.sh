@@ -8,7 +8,5 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 
 #run docker installation script
 sudo sh get-docker.sh
-
-
 echo ""
 docker -v
